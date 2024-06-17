@@ -7,15 +7,19 @@
 }
 
 body {
-  background-image: url(background.jpg);
-  background-size: cover;
-  background-position: center;
-  background-attachment: fixed;
+  background-attachment: scroll;
 }
 
 .navibar {
   height: 100vh;
   width: 100%;
+  display: flexbox;
+  background-image: url(background.jpg);
+  background-size: cover;
+  background-position: center;
+  background-attachment: scroll;
+  overflow-y: scroll;
+  position: static;
 }
 
 nav {
@@ -52,6 +56,7 @@ nav ul li a:hover {
   color: #6237a0;
   transition: 0.3s;
 }
+
 #naviSearchButton,
 #naviSearchField {
   padding: 10px 20px;
@@ -60,6 +65,7 @@ nav ul li a:hover {
   border-radius: 30px;
   border: 2px solid #6237a0;
   background: none;
+  color: white;
 }
 
 #naviSearchButton {
@@ -70,6 +76,7 @@ nav ul li a:hover {
 #naviSearchButton:hover {
   background-color: #6237a0;
 }
+
 .bx-search {
   color: white;
   padding: 10px 20px;
@@ -79,10 +86,8 @@ nav ul li a:hover {
   color: white;
 }
 
-#naviSearchButton {
-}
-
-button.naviBarBtn {
+button.naviBarBtnSignUp,
+button.naviBarBtnSignIn {
   border: none;
   background-color: #6237a0;
   padding: 12px 30px;
@@ -91,8 +96,10 @@ button.naviBarBtn {
   font-size: 15px;
   transition: 0.4s;
 }
-.introExplorbtn:hover,
-button.naviBarBtn:hover {
+
+button.introExplorbtn:hover,
+button.naviBarBtnSignUp:hover,
+button.naviBarBtnSignIn:hover {
   transform: scale(1.3);
   cursor: pointer;
 }
@@ -102,7 +109,6 @@ hr {
 }
 
 /* afer Navi bar */
-
 #introArea {
   background-color: rgba(240, 248, 255, 0.1);
   backdrop-filter: blur(50px);
@@ -150,4 +156,19 @@ button.introExplorbtn {
   margin-left: 30px;
   margin-bottom: 30px;
   transition: 0.4s;
+}
+
+.whiteArea {
+  display: flex;
+  height: 400px;
+  width: 100%;
+  background-color: white;
+}
+
+.purpleArea {
+  background-color: #6237a0;
+  height: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
