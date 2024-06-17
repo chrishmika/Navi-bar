@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>NaviBar</title>
     <link rel="stylesheet" href="style.css" />
+    <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet" />
   </head>
   <body>
     <div class="navibar">
@@ -16,8 +17,12 @@
           <li><a href="">Services</a></li>
           <li><a href="">About</a></li>
           <li><a href="">Contact Us</a></li>
-          <!-- <li><a href="">Search</a></li> -->
-          <li><input type="text" id="naviSearchField" placeholder="Search Songs" /></li>
+          <li>
+            <input type="text" id="naviSearchField" placeholder="Search Songs" />
+            <button id="naviSearchButton" class="bx bx-search">
+              <!-- <i class="bx bx-search"></i> -->
+            </button>
+          </li>
         </ul>
         <button type="button" class="naviBarBtn">Subscribe</button>
       </nav>
