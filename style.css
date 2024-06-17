@@ -4,7 +4,7 @@
   box-sizing: border-box;
   font-family: sans-serif;
 }
-.hero {
+.navibar {
   height: 100vh;
   width: 100%;
   background-image: url(background.jpg);
