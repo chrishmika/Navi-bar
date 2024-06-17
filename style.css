@@ -52,6 +52,18 @@ nav ul li a:hover {
   color: #6237a0;
   transition: 0.3s;
 }
+#naviSearchField {
+  padding: 10px 20px;
+  font-weight: bold;
+  outline: none;
+  border-radius: 30px;
+  border: 2px solid #6237a0;
+  background: none;
+}
+
+#naviSearchField::placeholder {
+  color: white;
+}
 
 button.naviBarBtn {
   border: none;
