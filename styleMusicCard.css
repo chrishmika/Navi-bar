@@ -42,9 +42,9 @@
   min-height: 150px;
 }
 
+/* #genresCardShow, */
 #musicDetails,
-#ArtistCardShow,
-#genresCardShow {
+#ArtistCardShow {
   color: white;
 }
 #musicCardShowTitile {
@@ -67,9 +67,9 @@
   height: 40px;
 }
 
-#genresCardShow {
+/* #genresCardShow {
   margin-right: 5px;
-}
+} */
 
 #musicCardDetails:hover {
   display: none;
